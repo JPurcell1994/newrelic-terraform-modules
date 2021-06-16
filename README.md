@@ -9,14 +9,14 @@ PreRequisites:
 - An Amazon Account attached to NewRelic Account
 - Full/Admin access on this NewRelic Account
 - You will need to export the following when running
-```hcl
+```
 export NEW_RELIC_API_KEY="<your New Relic API key>"
 export NEW_RELIC_REGION="<Your Region Here>"
 ```
 
-##What is covered:
+## What is covered:
 
-####Dashboards and Alerts:
+#### Dashboards and Alerts:
 
 - [APM](./modules/apm)
 - [Billing Standard](./modules/billing/standard)
@@ -25,21 +25,21 @@ export NEW_RELIC_REGION="<Your Region Here>"
 - [ElasticSearch](./modules/elasticsearch)
 - [RDS](./modules/rds)
 
-####Dashboards Alone:
+#### Dashboards Alone:
 
 - [BYOD - Build Your Own Dashboard](./modules/BYOD)
 - [Billing NewRelic](./modules/billing/newrelic)
 - [EKS Cluster](./modules/eks-cluster) // This is Dashboards alone to avoid the duplication of alerts from the Kubernetes integration itself
 
-####Alerts Alone:
+#### Alerts Alone:
 
 - [BYOA - Build Your Own Alerts](./modules/BYOA)
 
-###More Information:
+### More Information:
 
 Inside of each module there is a README which should give more verbose information as to what the module is going to create. 
 
 
-###Future Plans:
+### Future Plans:
 
 Span across more services and if available, multiple cloud provider setups. 
